@@ -13,14 +13,20 @@ angular.module("videoapp").config(function ($routeProvider, $locationProvider) {
         .when("/searchResults", {
             templateUrl: "view/searchResultsVideos.html",
         })
-        .when("/patientRegister", {
+        .when("/queroajudar", {
+            templateUrl: "view/donorRegister.html",            
+        })
+        .when("/receberprotese", {
             templateUrl: "view/patientRegister.html",
         })
-        .when("/donorRegister", {
-            templateUrl: "view/donorRegister.html",
-        })
-        .when("/thankYou", {
+        .when("/obrigado", {
             templateUrl: "view/thankYou.html",
+        })
+        .when("/quemsomos", {
+            templateUrl: "view/whoweare.html",
+        })
+        .when("/colaboradores", {
+            templateUrl: "view/helpers.html",
         })
         .otherwise({ redirectTo: '/home' });
 });

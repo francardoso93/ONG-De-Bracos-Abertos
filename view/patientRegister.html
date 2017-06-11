@@ -5,10 +5,14 @@
             <div class="col-lg-offset-2 col-lg-6">
 
                 <div>
-                    <div class="sectionTitle">Solicitar Prótese</div>
+
+
+                    <!--<div class="sectionTitle">Quero uma Prótese</div>-->
                     <br>
                     <br/>
-                    <form id="patientForm" action="#/thankYou" class="form-horizontal">
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeg4WNd99w0HyaPhsNMPvDhvRjkubTQ1UlRLoQ8mHIDeejhBw/viewform?embedded=true" width="760" height="1650" frameborder="0" marginheight="0" marginwidth="0">A carregar...</iframe> 
+
+                    <!--<form id="patientForm" action="#/obrigado" class="form-horizontal">
                         <div class="form-group">
                             <label class="control-label col-sm-4" for="fullname">Nome Completo:</label>
                             <div class="col-sm-8">
@@ -51,7 +55,7 @@
                                 <button type="submit" class="btn btn-success confirmButton" id="register">Solicitar</button>
                             </div>
                         </div>
-                    </form>
+                    </form>-->
                 </div>
             </div>
         </div>
@@ -73,7 +77,7 @@
 
         var url = '/api/CompanyAPI';
 
-      
+
         $("#register").click(function () {
             var formData = getFormObj("patientForm");
             console.log(formData);

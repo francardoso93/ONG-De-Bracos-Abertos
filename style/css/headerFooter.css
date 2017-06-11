@@ -1,5 +1,5 @@
 ﻿.navbar-custom-color {
-    background-color: #48C3EE;
+    background-color: black;
 }
 
 .navbar a{
@@ -26,8 +26,10 @@
 }
 
 #brandImg {
-    max-height: 100%; 
-    max-width: 100%;
+    vertical-align: middle;
+    margin-top:4px;
+    max-height: 90%; 
+    max-width: 90%;
 }
 
 @media screen and (max-width: 600px) {
