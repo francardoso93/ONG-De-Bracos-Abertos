@@ -8,7 +8,7 @@ angular.module("videoapp").factory("youtubeVideoService", function ($http) {
     var videosList = [];
     var apiPrefix = 'https://www.googleapis.com/youtube/v3/search?'
     var myKey = 'AIzaSyBEMSXL57odvLaAG-9Fc-RuHBqjZq4CG9Q';
-    var channeldId = 'UCAuUUnT6oDeKwE6v1NGQxug';
+    var channeldId = 'UCLp2KVhSvZKQ3gsqXU8uBEA';
     var maxResults = 30;
     var fields = 'items(id,snippet(title,description,thumbnails,publishedAt))';
     var part = 'snippet'

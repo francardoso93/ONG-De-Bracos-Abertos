@@ -42,12 +42,12 @@ angular.module("videoapp").controller("indexController", function ($scope, youtu
    Paramethers: -
    Return: -
    */
-    $(window).on('hashchange', function () {
-        if (window.location.hash.substr(1) != '/videos') {
-            $scope.search = '';
-            document.getElementById('search').value = '';
-        }        
-    });
+    // $(window).on('hashchange', function () {
+    //     if (window.location.hash.substr(1) != '/videos') {
+    //         $scope.search = '';
+    //         document.getElementById('search').value = '';
+    //     }        
+    // });
 
     var videoPrefix = 'http://www.youtube.com/embed/'
 
