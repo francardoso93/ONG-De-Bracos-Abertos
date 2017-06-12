@@ -14,7 +14,7 @@ angular.module("videoapp").config(function ($routeProvider, $locationProvider) {
             templateUrl: "view/searchResultsVideos.html",
         })
         .when("/queroajudar", {
-            templateUrl: "view/donorRegister.html",            
+            templateUrl: "view/donorRegister.html",             
         })
         .when("/receberprotese", {
             templateUrl: "view/patientRegister.html",
@@ -27,6 +27,9 @@ angular.module("videoapp").config(function ($routeProvider, $locationProvider) {
         })
         .when("/colaboradores", {
             templateUrl: "view/helpers.html",
+        })
+        .when("/videos", {
+            templateUrl: "view/videos.html",
         })
         .otherwise({ redirectTo: '/home' });
 });
